@@ -36,9 +36,10 @@ body {
 /* Another container for adding a darkened background and making it fill the entire height */
 .container .inner {
 	height: 100%;
-	background: rgba(0, 0, 0, 0.6);
 	display: table-row;  
 	text-shadow: 0px 0px 12px rgba(0, 0, 0, .2);
+	background: rgba(0, 0, 0, 0.5);
+
 }
 
 /* Final container for containing the page content, applies padding to the content */
@@ -50,7 +51,7 @@ body {
 /* A bit of resizing of the main content items */
 h1 {
 	font-size: 3em;
-	padding-top: 5em;
+	padding-top: 6em;
 }
 h2 {
 	font-size: 1.8em;
