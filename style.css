@@ -50,12 +50,17 @@ body {
 /* A bit of resizing of the main content items */
 h1 {
 	font-size: 3em;
+	padding-top: 5em;
 }
 h2 {
 	font-size: 1.8em;
+	padding-top: 2em;
+	font-style: italic;
 }
 p {
-	font-size: 1.1em;
+	padding-top: 2em;
+	font-size: 1.6em;
+	font-style: italic;
 }
 
 /* Styling for social icons */
@@ -73,11 +78,9 @@ i.fa:hover {
 @media only screen and (max-width: 900px) {
 	h1 {
 		font-size: 2em;
-		padding: 5cm;
 	}
 	h2 {
 		font-size: 1.2em;
-		padding: 3m;
 	}
 	p {
 		font-size: 1em;
