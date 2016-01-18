@@ -1,5 +1,6 @@
 /* Font used for all text in the container */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);/* Reset margins and fill entire space */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* Reset margins and fill entire space */
 html, body, .container {
 	height: 100%;
 	width: 100%;
@@ -13,40 +14,25 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-
+	
 	/* Page color and font */
 	color: #FFF;
-font-family: 'Open Sans', sans-serif;
+	font-family: 'Slabo 27px', serif;
+
 }
 
 /* Contains the main content, limits its width, and centers the content */
 .container {
 	margin: auto;
 	max-width: 66%;
-
-	height: 100%;
-	width: 100%;
-
-	text-align: center;
-	display: table;
-}
-
-/* Another container for adding a darkened background and making it fill the entire height */
-.container .inner {
-	height: 100%;
-	display: table-row;
-	text-shadow: 0px 0px 12px rgba(0, 0, 0, .2);
-	background: rgba(0, 0, 0, 0.5);
-
-
-}
+	
 
 /* Final container for containing the page content, applies padding to the content */
 .container .inner .content {
 	margin: 0 48px;
 	padding: 0 32px 32px 24px;
 		    display: table-cell;
-    vertical-align: middle
+    vertical-align: middle 
 
 }
 
@@ -55,9 +41,11 @@ h1 {
 	font-size: 3em;}
 h2 {
 	font-size: 1.8em;
+	font-style: italic;
 }
 p {
 	font-size: 1.6em;
+	font-style: italic;
 }
 
 /* Styling for social icons */
@@ -74,10 +62,10 @@ i.fa:hover {
 /* Make the site look better and fit the page on mobile */
 @media only screen and (max-width: 900px) {
 	h1 {
-		font-size: 1.8em;
+		font-size: 2em;
 	}
 	h2 {
-		font-size: 1.6em;
+		font-size: 1.2em;
 	}
 	p {
 		font-size: 1em;
