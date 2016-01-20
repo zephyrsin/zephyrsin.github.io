@@ -39,7 +39,7 @@ body {
 .header .header-content {
     position: relative;
     width: 100%;
-    padding: 100px 15px;
+    padding: 0px 0px;
     text-align: center;
     z-index: 2;
 }
@@ -96,7 +96,7 @@ body {
 /* Final container for containing the page content, applies padding to the content */
 .container .inner .content {
 	margin: 0 48px;
-	padding: 0 32px 32px 24px;
+	padding: 0 16px 16px 12px;
 		    display: table-cell;
     vertical-align: middle
 
@@ -104,7 +104,8 @@ body {
 
 /* A bit of resizing of the main content items */
 h1 {
-	font-size: 3em;}
+	font-size: 3em;
+	}
 h2 {
 	font-size: 1.8em;
 }
@@ -114,7 +115,7 @@ p {
 
 /* Styling for social icons */
 i.fa {
-	padding: 0 8px;
+	padding: 0 0px;
 	color: #FFF;
 	transition: all 0.3s ease 0s;
 	-webkit-transition: all 0.3s ease 0s;
