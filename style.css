@@ -1,5 +1,5 @@
 /* Font used for all text in the container */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);/* Reset margins and fill entire space */
+@import url(https://fonts.googleapis.com/css?family=Hind:700);
 html, body, .container {
 	height: 100%;
 	width: 100%;
@@ -16,7 +16,7 @@ body {
 
 	/* Page color and font */
 	color: #FFF;
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Hind', sans-serif;
 	background-color: #d3d3d3;
 }
 
@@ -104,14 +104,14 @@ body {
 
 /* A bit of resizing of the main content items */
 h1 {
-	font-size: 3em;
+	font-size: 8em;
 	}
 h2 {
 	font-size: 1.8em;
 }
 p {
 	font-size: 1.6em;
-}
+    }
 
 /* Styling for social icons */
 i.fa {
