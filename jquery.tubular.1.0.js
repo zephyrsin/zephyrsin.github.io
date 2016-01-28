@@ -10,6 +10,8 @@
 |* Thanks,
 |* Sean */
 
+/* Credit towards Tim Berglund for his time lapse of San Jose */
+
 ;(function ($, window) {
 
     // test for feature support and return if failure
