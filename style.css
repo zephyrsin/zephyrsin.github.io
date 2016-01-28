@@ -42,7 +42,7 @@ body {
     padding: 0px 0px;
     text-align: center;
     z-index: 2;
-    }
+}
 
 .header .header-content .inner h1 h2 {
     margin-top: 50%;
@@ -89,9 +89,7 @@ body {
 	display: table-row;
 	text-shadow: 0px 0px 12px rgba(0, 0, 0, .2);
 	background: rgba(0, 0, 0, 0.5);
-    vertical-align: middle;
-        top: 50%;
-
+    vertical-align: middle
 
 }
 
@@ -100,7 +98,7 @@ body {
 	margin: 0 48px;
 	padding: 0 16px 16px 12px;
 		    display: table-cell;
-    vertical-align: middle;
+    vertical-align: middle
 
 }
 
