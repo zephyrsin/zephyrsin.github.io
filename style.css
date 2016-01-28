@@ -105,25 +105,12 @@ body {
 /* A bit of resizing of the main content items */
 h1 {
 	font-size: 3em;
-	left: 0;
-    line-height: 200px;
-    margin-top: -100px;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    width: 100%;
 	}
 h2 {
 	font-size: 1.8em;
 }
 p {
 	font-size: 1.6em;
-    left: 0;
-    line-height: 200px;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    width: 100%;
     }
 
 /* Styling for social icons */
