@@ -96,7 +96,7 @@ body {
 /* Final container for containing the page content, applies padding to the content */
 .container .inner .content {
 	margin: 0 48px;
-	padding: 0 16px 16px 12px;
+	padding: 0 0 0 0;
 		    display: table-cell;
     vertical-align: middle
 
@@ -122,28 +122,4 @@ i.fa {
 }
 i.fa:hover {
 	color: #00C5DB;
-}
-
-/* Make the site look better and fit the page on mobile */
-@media only screen and (max-width: 900px) {
-	h1 {
-		font-size: 1.8em;
-	}
-	h2 {
-		font-size: 1.6em;
-	}
-	p {
-		font-size: 1em;
-	}
-	.container {
-		max-width: 90%;
-	}
-	.container .inner .content {
-		margin: 0 16px;
-		padding: 0;
-		min-width: 320;
-	}
-	i.fa {
-		font-size: 2.5em;
-	}
 }
