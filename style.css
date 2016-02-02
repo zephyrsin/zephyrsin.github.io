@@ -79,12 +79,8 @@ body {
 	height: 100%;
 	width: 100%;
 
-/*	text-align: center;
-	display: table-cell; */
-
-	  display: flex;
-      align-items: center
-
+    text-align: center;
+	display: table-cell;
 }
 
 /* Another container for adding a darkened background and making it fill the entire height */
